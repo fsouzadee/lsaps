@@ -1,0 +1,5 @@
+{
+  "name": "Convolution Animator",
+  "description": "Uma ferramenta interativa para visualizar e entender a convolução discreta de sistemas LTI.",
+  "requestFramePermissions": []
+}
