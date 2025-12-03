@@ -8,8 +8,8 @@ import { CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Ba
 
 const App: React.FC = () => {
   // State
-  const [x, setX] = useState<number[]>([1, 1, 1, 1]);
-  const [h, setH] = useState<number[]>([1, 0.5, 0.25]);
+  const [x, setX] = useState<number[]>([0.1, 0.5, 1.0, 1.5]);
+  const [h, setH] = useState<number[]>([1, 1, 1]);
   const [n, setN] = useState<number>(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [speed, setSpeed] = useState(1000);
